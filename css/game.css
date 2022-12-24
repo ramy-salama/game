@@ -48,7 +48,7 @@ body {
 
 .info-container {
     display: flex;
-    width: 90%;
+    width: 95%;
     margin: 20px auto 20px;
     background-color: var(--background);
     padding: .2rem 1.2rem .2rem 1.2rem;
@@ -93,7 +93,7 @@ body {
 
 .memory-game-blocks {
     display: flex;
-    width: 70.15%;
+    width: 90%;
     flex-wrap: wrap;
     margin: 0 auto;
 }
