@@ -120,3 +120,38 @@ function shuffle(array) {
     return array;
 
 }
+
+
+
+// Dark Mode
+
+let light = document.querySelector('#light'),
+    dark = document.querySelector('#dark');
+
+function darkMode() {
+    document.documentElement.style.setProperty('--border', '#252b43');
+    document.documentElement.style.setProperty('--text', '#fff');
+    document.documentElement.style.setProperty('--background', '#252b43');
+    document.documentElement.style.setProperty('--box-shadow', '0 .2rem .2rem rgba(225, 225, 225, .3)');
+}
+
+function lightMode() {
+    document.documentElement.style.setProperty('--border', '#fff');
+    document.documentElement.style.setProperty('--text', '#252b43');
+    document.documentElement.style.setProperty('--background', '#fff');
+    document.documentElement.style.setProperty('--box-shadow', '0 .2rem .2rem rgba(0, 0, 0, .3)');
+}
+
+light.onclick = () => {
+    light.classList.remove('show'),
+        light.classList.add('haid'),
+        dark.classList.add("show")
+    lightMode()
+}
+
+dark.onclick = () => {
+    dark.classList.remove('show'),
+        dark.classList.add('haid'),
+        light.classList.add("show")
+    darkMode()
+}
