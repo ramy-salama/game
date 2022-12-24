@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Ramy Salama" name="keywords">
+    <meta content="Ramy Salama" name="description">
+    <link href="img/icon.jpg" rel="icon">
+    <title>game</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body>
+
+    <div id="game-over" class="control-buttons">
+        <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+
+    <div class="memory-game-blocks">
+
+        <div class="game-block" data-letters="A">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/A.jpg"></img>
+            </div>
+        </div>
+        <div class="game-block" data-letters="A">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/A.jpg"></img>
+            </div>
+        </div>
+
+        <div class="game-block" data-letters="B">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/B.jpg"></img>
+            </div>
+        </div>
+        <div class="game-block" data-letters="B">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/B.jpg"></img>
+            </div>
+        </div>
+
+        <div class="game-block" data-letters="F">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/C.jpg"></img>
+            </div>
+        </div>
+        <div class="game-block" data-letters="F">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/C.jpg"></img>
+            </div>
+        </div>
+
+        <div class="game-block" data-letters="J">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/D.jpg"></img>
+            </div>
+        </div>
+        <div class="game-block" data-letters="J">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/D.jpg"></img>
+            </div>
+        </div>
+
+        <div class="game-block" data-letters="L">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/E.jpg"></img>
+            </div>
+        </div>
+        <div class="game-block" data-letters="L">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/E.jpg"></img>
+            </div>
+        </div>
+
+        <div class="game-block" data-letters="M">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/F.jpg"></img>
+            </div>
+        </div>
+        <div class="game-block" data-letters="M">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/F.jpg"></img>
+            </div>
+        </div>
+
+        <div class="game-block" data-letters="N">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/G.jpg"></img>
+            </div>
+        </div>
+        <div class="game-block" data-letters="N">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/G.jpg"></img>
+            </div>
+        </div>
+
+        <div class="game-block" data-letters="R">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/H.jpg"></img>
+            </div>
+        </div>
+        <div class="game-block" data-letters="R">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/H.jpg"></img>
+            </div>
+        </div>
+
+        <div class="game-block" data-letters="S">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/I.jpg"></img>
+            </div>
+        </div>
+        <div class="game-block" data-letters="S">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/I.jpg"></img>
+            </div>
+        </div>
+
+        <div class="game-block" data-letters="Y">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/J.jpg"></img>
+            </div>
+        </div>
+        <div class="game-block" data-letters="Y">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/J.jpg"></img>
+            </div>
+        </div>
+    </div>
+
+    <div class="reload">
+        <span onclick="location.reload()">Reload</span>
+    </div>
+
+    <audio id="start" src="audio/start.mp3" preload="auto"></audio>
+    <audio id="success" src="audio/win.mp3" preload="auto"></audio>
+    <audio id="fall" src="audio/lost.mp3" preload="auto"></audio>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>
