@@ -1,7 +1,7 @@
 :root {
-    --border: #fff;
+    --border: rgb(240, 241, 250);
     --text: #252b43;
-    --background: #fff;
+    --background: rgb(240, 241, 250);
     --box-shadow: 0 .2rem .2rem rgba(0, 0, 0, .3)
 }
 
@@ -30,7 +30,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: #f44336;
+    background-color: #f4a236;
     color: var(--text);
     padding: 5px 15px;
     font-size: 28px;
